@@ -1,0 +1,1298 @@
+/*body ,main{
+    overflow-x: hidden; 
+    overflow-Y: hidden; 
+  }*/
+
+
+
+.xdebug-error {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* 99cf46 */
+#Banner {
+  background-color: #99cf46;
+  justify-content: space-between;
+  z-index: 99;
+  position: sticky;
+}
+
+.RL {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 100px;
+}
+
+#Title {
+  font-family: "Banner";
+  text-decoration: underline;
+}
+
+#TextoBanner {
+  padding-top: 35px;
+  padding-right: 1500px;
+  font-family: "Banner";
+  font-size: 0px;
+  font-display: unset;
+  text-decoration: underline #5e8524;
+  margin-top: -115px;
+  padding-left: 120px;
+  overflow-x: auto;
+  padding-right: 100px;
+}
+
+/*---------------------| Agenda |--------------------*/
+
+.BarraTarefa {
+  overflow: scroll;
+  scrollbar-color: #00000041 #ffffff2c;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+.ListaTarefasAgenda {
+  height: 88vh;
+  width: 40%;
+  background-color: #98cf463b;
+  display: flex !important;
+
+}
+
+.Tarefa {
+  width: 85%;
+  height: auto;
+  padding: 0px 5%;
+  background-color: rgba(110, 110, 110, 0.048);
+
+}
+
+.TarefaAgenda {
+  background-color: #3b863daf;
+  width: 70%;
+  height: 100px;
+  border-radius: 8px;
+  color: black;
+  text-decoration: none;
+}
+
+.TarefaAgenda * {
+  opacity: .8;
+}
+
+.TarefaAgenda:hover h5 {
+  text-decoration: underline
+}
+
+.TarefaAgenda i {
+  font-size: 3rem;
+  color: black;
+}
+
+.dct {
+  margin-top: -14px;
+}
+
+.SuasTarefas {
+  font-family: "Header";
+}
+
+.DashAgenda {
+  width: 100%;
+  height: 5px;
+  background-color: #794985;
+}
+
+.desctarefa {
+  margin-bottom: 40%;
+}
+
+.EnviaTarefaInput {
+  height: 60px !important;
+  width: 100% !important;
+  padding-left: 20px;
+  font-size: larger;
+  border-radius: 10px;
+  position: relative;
+}
+
+.FormEntrega {
+  background-color: #4618645b;
+  border-radius: 1rem;
+}
+
+/*---------------------| Turma |--------------------*/
+
+.NomeTurma {
+  margin-left: 14%;
+  max-width: 350px;
+  width: auto;
+  text-wrap-mode: wrap;
+  word-break: normal;
+}
+
+.EditarTurma {
+  border-radius: 50%;
+  background-color: #fad8ff;
+  height: auto;
+}
+
+.UserList {
+  background-color: rgba(255, 255, 255, 0.322);
+}
+
+.CountUsers {
+  max-height: 500px;
+  overflow: scroll;
+  scrollbar-color: #00000041 #ffffff2c;
+  scrollbar-width: none;
+}
+
+.MenuTurma a {
+  margin-left: 1%;
+  margin-right: 1%;
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: .4s;
+}
+
+.MenuTurma a:hover {
+  color: #964ca2;
+  transition: .4s;
+  text-decoration: underline;
+}
+
+.ActiveTab {
+  color: #964ca2 !important;
+  text-decoration: underline !important;
+}
+
+.DashTurma {
+  opacity: .4;
+  border-radius: 1rem;
+}
+
+/* <!-- Inicio Turma -->*/
+
+.ListaTarefas {
+  min-height: 100px;
+  height: auto;
+  max-height: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-color: #00000041 #ffffff2c;
+  scrollbar-width: none;
+
+
+}
+
+.InputInicio {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a .InputInicio h3 {
+  color: black;
+  text-decoration: none;
+
+}
+
+a .InputInicio h5 {
+  color: black;
+  text-decoration: none;
+}
+
+.InputInicio a .done {
+  color: green;
+}
+
+.InputInicio a .notdone {
+  color: red;
+}
+
+.InputAtividade {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 1.3rem;
+  padding: 3% 3%;
+}
+
+.InputAtividade:focus {
+  border: none;
+  outline: none;
+}
+
+.CriarAtividade {
+  margin-left: 1%;
+}
+
+.Clickable {
+  cursor: pointer;
+}
+
+.FormAdm {
+  width: 100%;
+  height: 100%;
+}
+
+/* <!-- Comunidade Turma -->*/
+
+
+
+
+.InputChat {
+  width: 80%;
+  background-color: #d6d8d7;
+  border: none;
+  border: 2px solid #00000041 !important;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: large;
+}
+
+.FormChat {
+  width: 100%;
+  margin-right: -20%;
+}
+
+.InputChat:focus {
+  border: none;
+
+}
+
+.ChatMensagens {
+  background-color: rgba(223, 223, 223, 0.432);
+  max-height: 480px !important;
+  width: 80%;
+  border: 1px solid;
+  overflow: scroll;
+  scrollbar-color: #00000041 #ffffff2c;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+
+.ChatMensagens i {
+  text-wrap: nowrap;
+  align-self: flex-start;
+}
+
+.Mensagem {
+  height: auto;
+  width: 95%;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  background-color: rgba(131, 131, 131, 0.171);
+  align-self: flex-start;
+}
+
+.Mensagem .MoreTurma {
+  color: rgb(192, 163, 0);
+
+}
+
+.TextoMensagem {
+  word-break: break-all;
+  word-wrap: normal;
+  align-self: flex-start;
+}
+
+.FotoPerfilChat {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+/* <!-- Conteudos Turma -->*/
+
+.AdicionarConteudo {
+  font-size: larger !important;
+}
+
+/* <!-- Recebidos Turma -->*/
+
+
+/*---------------------| Inicio |-------------------*/
+
+.SelectAllTurmas {
+  width: auto;
+  height: auto;
+  max-height: 800px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+
+}
+
+.PesquisaDiv {
+  background-color: #9c8bac;
+  box-shadow: #000;
+  height: 60px;
+}
+
+.PesquisaBox {
+  border-radius: 0.7rem;
+  border: none;
+  height: 40px;
+  z-index: 1;
+  position: absolute;
+  width: 26%;
+  text-align: center;
+}
+
+.PesquisaBox::placeholder {
+  text-align: center;
+}
+
+.iconeSearch {
+  border: none;
+  background: none;
+  position: absolute;
+  z-index: 2;
+  margin-left: 23%;
+  margin-top: 7px;
+}
+
+.CT {
+  box-shadow: 9px 7px 5px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 9px 7px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 7px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.TurmaSelect {
+  width: 400px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 3%;
+  z-index: 99;
+  border: #00b37736 solid .1rem;
+}
+
+.TurmaSelectIMG {
+  height: 200px;
+}
+
+.TurmaSelectNome {
+  height: 60px;
+  background-color: #964ca2;
+}
+
+.LinkTurma {
+  color: #fff;
+  text-decoration: none;
+  transition: .3s ease;
+  text-overflow: ellipsis;
+  text-wrap-mode: nowrap;
+  overflow: hidden;
+  height: 60px;
+  width: 300px;
+  text-align: start;
+  background: none;
+  border: none;
+}
+
+.LinkTurma:hover {
+  color: #d4ffd7;
+  text-decoration: underline;
+  transition: .7s ease;
+}
+
+.MoreTurma {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/*---------------------| Join |---------------------*/
+
+#heading {
+  font-family: "Header";
+  font-size: 3rem;
+  color: #964ca2;
+  text-decoration: underline 1;
+  text-align: center;
+}
+
+#Filler {
+  height: 100%;
+  width: 80%;
+}
+
+/*-----------------------| Sobre |---------------------*/
+.sobrebox {
+  position: fixed;
+  bottom: 0;
+  background-color: #e3d0e9;
+  justify-content: center;
+  padding-top: 5px;
+  z-index: -1;
+  flex-direction: row;
+}
+
+#random-text {
+  margin-top: 10%;
+  text-align: center;
+  margin-left: 5%;
+  font-family: Header;
+  color: #515151;
+}
+
+#first {
+  margin-left: 10%;
+}
+
+/*-----------------------| Perfil |--------------------*/
+.FooterPerfil {
+  --bs-gutter-x: 0 !important;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  padding-top: 5px;
+  z-index: -1;
+  flex-direction: row;
+
+}
+
+.BannerP {
+  background-color: #4caf50;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  border-bottom: 0.4rem solid #3b863d;
+}
+
+.FotodivP {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.FotoP {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #59cc5d;
+  border: 5px solid #3b863d;
+}
+
+.labeldesc {
+  color: black;
+}
+
+.inputdesc {
+  padding-bottom: 10%;
+}
+
+.descricaotxt {
+  width: 40%;
+  height: 100px;
+  text-align: center;
+  word-break: normal;
+}
+
+.Descbutton {
+  background-color: #3b863d !important;
+  border: 0.16rem solid rgb(22, 65, 43) !important;
+}
+
+.Descbutton span {
+  text-decoration: solid;
+  color: white;
+}
+
+.nomePerfil i {
+  color: rgb(0, 68, 255);
+}
+
+/* .buttonDesc {
+  border: 0.176rem solid #000;
+  border-radius: 0.5rem;
+  margin-left: 0.13rem;
+} */
+
+.buttonNome {
+  padding: unset;
+  border: none;
+  background: none;
+  margin-left: 0.2rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/*-----------------------| Login |---------------------*/
+
+#entrar {
+  color: #6b8d70;
+  align-self: center;
+  font-family: "Registers";
+}
+
+#caixalogin {
+  width: 55%;
+}
+
+#leftlogin {
+  width: 50%;
+}
+
+#voltar {
+  color: #000;
+}
+
+.inputlogin {
+  background-color: #6b8d70;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  color: #f6f6f6;
+}
+
+.inputlogin::placeholder {
+  color: #d6d8d7;
+  font-family: "Registers";
+  font-size: 1.1rem;
+  width: 8rem;
+}
+
+.erro {
+  color: red;
+  align-self: center;
+}
+
+.confirmado {
+  color: rgb(0, 150, 0);
+  align-self: center;
+}
+
+#loginbox {
+  background-color: #f6f6f6;
+  border-radius: 1rem;
+  border: 0.2rem solid #99cf46;
+  margin-top: 6%;
+  justify-content: space-between;
+}
+
+#botaologin {
+  background-color: #9c8bac;
+  border: none;
+  border-radius: 2.5rem;
+  padding: 1rem;
+  font-family: "Registers";
+  color: #d6d8d7;
+  font-size: 1.4rem;
+}
+
+#fillerlogin {
+  width: 60%;
+}
+
+/*-----------------------| Fundos |---------------------*/
+
+#fundog {
+  background-image: url("imagens/FundoGradient.png");
+  background-color: #000;
+
+}
+
+#fundop {
+  background-image: url("imagens/Fundop.png");
+  /* background-size: 0; */
+  background-color: #ffffff;
+
+}
+
+/*-----------------------| Fontes |----------------------*/
+
+@font-face {
+  font-family: "Registers";
+  src: url("Fontes/Buenard-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Header";
+  src: url("Fontes/InriaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Button";
+  src: url("Fontes/JacquesFrancois-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Banner";
+  src: url("Fontes/BabyKimo.ttf");
+  font-size: 30px;
+}
+
+/*----------------------| Botões |---------------------*/
+
+.ButtonTemplate1 {
+  padding: 0.3rem;
+  border: 0.17rem solid white;
+  border-radius: 4rem;
+  font-family: "Button";
+  font-weight: bold;
+  background: #3fd660;
+  color: white;
+  font-size: 1rem;
+  z-index: 999;
+}
+
+.ButtonTemplate1:hover {
+  background: #34be52;
+}
+
+.ButtonTemplate2 {
+  padding: 0.3rem;
+  border: 0.17rem solid white;
+  border-radius: 4rem;
+  font-family: "Button";
+  font-weight: bold;
+  background-color: rgb(167, 81, 180);
+  color: white;
+  font-size: 1rem;
+}
+
+.ButtonTemplate2:hover {
+  background: #964ca2;
+}
+
+/*-------------------------| Main |---------------------------*/
+
+.sidebar {
+  margin-top: -15px;
+  margin-left: -12px;
+  width: 120px;
+  background-color: #f1f1f1;
+  position: absolute;
+  height: auto;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  padding: 1px 16px !important;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.sidebar a img {
+  height: 82px;
+  width: 110px;
+  margin-left: -6px;
+  transition: all 0.3s ease;
+
+
+}
+
+.sidebar-text {
+  margin-left: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: none;
+  font-size: 1.2rem;
+
+}
+
+.fillSidebar {
+  top: 100PX;
+  height: 100vh;
+  width: 120px;
+  position: fixed;
+  transition: all 0.4s ease;
+  background-color: #f1f1f1 !important;
+  filter: grayscale(100%);
+  z-index: -99;
+}
+
+/* Efeitos hover */
+.sidebar:hover {
+  width: 270px;
+}
+
+.sidebar:hover .fillSidebar {
+  width: 270px;
+}
+
+.fillSidebar:hover {
+  width: 270px;
+}
+
+.sidebar:hover .sidebar-text {
+  opacity: 1;
+  display: inline;
+}
+
+.sidebar a:not(.active):not(:hover) img {
+  filter: grayscale(100%);
+}
+
+.sidebar a:hover {
+  background-color: #ddd;
+}
+
+.sidebar a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/*--------| responsive fix |--------*/
+
+@media (max-height: 844px) {
+
+  .SelectAllTurmas {
+    max-height: 600px !important;
+  }
+
+}
+
+
+@media (max-height: 414px) {
+  #Banner {
+    position: absolute;
+    height: -30%;
+  }
+
+  .sidebar {
+    position: absolute;
+    margin-top: 85px;
+  }
+
+  .sidebar a {
+    height: 60px;
+  }
+
+  #Filler {
+    height: 100%;
+    width: 50%;
+  }
+
+  #Title {
+    margin-left: 5%;
+  }
+
+
+  .SelectAllTurmas {
+    max-height: 600px;
+  }
+
+
+
+}
+
+@media (max-width: 992px) {
+  .sidebar a img {
+    height: 70px;
+    width: 90px;
+    margin-left: 0px;
+  }
+
+  /*----------------------------| join |------------------------*/
+
+  #joinmiddle {
+    margin-left: 50%;
+  }
+
+  #Filler {
+    display: none;
+  }
+
+  /*----------------------------| login & cadastro |---------------------*/
+  #fillerlogin {
+    width: 0;
+  }
+
+  #imagefillerlogin {
+    display: none;
+  }
+
+  #fillerlogin {
+    width: 0%;
+  }
+
+  #imagefillerlogin {
+    display: none;
+  }
+
+  #caixalogin {
+    width: 90%;
+  }
+
+  #loginbox {
+    /* margin-top:; */
+    justify-content: center;
+    width: 200%;
+  }
+
+  #leftlogin {
+    width: 150%;
+  }
+
+  /*---------------------| Inicio |-------------------*/
+
+  .PesquisaBox {
+    width: 41%;
+  }
+
+  .iconeSearch {
+    margin-left: 37%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80px;
+  }
+
+  .fillSidebar {
+    width: 80px;
+  }
+
+  .sidebar:hover {
+    width: 220px;
+  }
+
+  .sidebar:hover .fillSidebar {
+    width: 220px;
+  }
+
+  .fillSidebar:hover {
+    width: 220px;
+  }
+
+  .sidebar a img {
+    height: 60px;
+    width: 80px;
+    margin-left: -10px;
+  }
+
+  #joinmiddle {
+    margin-left: 17%;
+  }
+
+  /*---------------------| Inicio |-------------------*/
+
+  .PesquisaBox {
+    width: 51%;
+  }
+
+  .iconeSearch {
+    margin-left: 47%;
+  }
+}
+
+@media (max-width: 576px) {
+  #logo {
+    height: 75px;
+  }
+
+  #Title {
+    margin-left: 3%;
+  }
+
+  .RL {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-left: 0;
+    bottom: 0;
+    height: auto;
+    top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0;
+    width: 100%;
+    padding-top: 0;
+    position: relative;
+    margin-top: 0px;
+    overflow-x: visible;
+  }
+
+  .fillSidebar {
+    display: none;
+  }
+
+  .sidebar:hover {
+    width: 100%;
+  }
+
+  .sidebar-text {
+    display: none !important;
+  }
+
+  .sidebar a {
+    flex-direction: column;
+    padding: 20px 30px !important;
+  }
+
+  .sidebar a img {
+    height: 50px;
+    width: 65px;
+    margin-left: 0;
+    margin-bottom: -15px;
+    margin-top: -15px;
+  }
+
+  #Filler {
+    display: block;
+  }
+
+  #joinmiddle {
+    margin-left: 0%;
+  }
+
+  /*-----------------------| Chat |---------------------*/
+
+  .TextoMensagem {
+    word-break: normal;
+  }
+
+  .FotoPerfilChat {
+    display: none;
+  }
+
+  .AreaChat {
+    overflow-x: hidden;
+  }
+
+  .FormChat {
+    width: 100%;
+    margin-right: -25%;
+    overflow-x: hidden;
+    height: 600px;
+  }
+
+  .ChatMensagens {
+    width: 100%;
+  }
+
+  /*-----------------------| Sobre |---------------------*/
+  #sobrebox {
+    flex-direction: column;
+  }
+
+  #first {
+    margin-left: 0%;
+  }
+
+  #random-text {
+    font-size: 0;
+  }
+
+  /*---------------------| Inicio |-------------------*/
+
+  .PesquisaBox {
+    width: 76%;
+  }
+
+  .iconeSearch {
+    margin-left: 71%;
+  }
+
+  .TurmaSelect {
+    width: 350px;
+  }
+
+  .TurmaSelectIMG {
+    height: 175px;
+  }
+
+  .TurmaSelectNome {
+    height: 50px;
+  }
+
+  .LinkTurma {
+    height: 50px;
+
+  }
+
+  /*----------------------| Agenda |-----------------------*/
+
+  .CTarefa {
+    display: none !important;
+  }
+
+  .Starefa {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: 0 !important;
+
+  }
+
+  .Tarefa {
+    width: 100%;
+
+  }
+
+  .RotuloTarefa {
+    margin-top: 20%;
+  }
+
+  .FormEntrega {
+    margin-top: 20%;
+
+  }
+
+
+  .PCT {
+    --bs-gutter-x: 0rem !important;
+  }
+
+  /*-----------------------------| Perfil |---------------------------*/
+  .descricaotxt {
+    width: 70%;
+  }
+
+  /*----------------------| Login && Cadastro |-----------------------*/
+
+  #fillerlogin {
+    width: 0%;
+  }
+
+  #imagefillerlogin {
+    display: none;
+  }
+
+  #caixalogin {
+    width: 100%;
+  }
+
+  #loginbox {
+    margin-top: 40%;
+    justify-content: center;
+    width: 200%;
+  }
+
+  #leftlogin {
+    width: 150%;
+  }
+
+  /*----------------------| Turma |-------------------------*/
+
+  .InputInicio {
+    flex-direction: column;
+  }
+
+  .FormAdm {
+    order: 1;
+  }
+
+
+  /*----------------------| Fundo |-------------------------*/
+  #fundog {
+    background-size: auto;
+  }
+
+  /*----------------------| Botões |---------------------*/
+
+  #ButtonTemplate1 {
+    border: 0.1rem solid white;
+    border-radius: 3rem;
+    font-size: 0.5rem;
+  }
+
+  #ButtonTemplate2 {
+    border: 0.1rem solid white;
+    border-radius: 3rem;
+    font-size: 0.5rem;
+  }
+}
+
+.sidebar a #textoside {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.sidebar:not(:hover) a #textoside {
+  opacity: 0%;
+  transition: 0.3s;
+}
+
+.sidebar:hover a #textoside {
+  opacity: 1;
+  transition: 0.3s;
+  margin-left: 8%;
+}
+
+/*-----------------------------*/
+
+/*  links do Sidebar */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 19px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Link selecionado */
+.sidebar a.active {
+  background-color: #7db130;
+  color: white;
+}
+
+/* Hover nos Links */
+.sidebar a:hover:not(.active) {
+  background-color: #a260b3;
+  color: rgb(255, 255, 255);
+}
+
+/*-------------------------------------*/
+
+/*  Conteudo do site (Inicio) */
+
+/*#A260B3*/
+
+/*-----------------| Glassmorphism |------------------*/
+.modal label {
+  color: #fff;
+}
+
+.modal h1 {
+  color: #fff;
+}
+
+.modal button {
+  --bs-btn-close-color: #fff !important;
+}
+
+.modal input {
+  opacity: 0.7;
+}
+
+.modal textarea {
+  opacity: 0.7;
+}
+
+.modal .ButtonTemplate2 {
+  opacity: 0.8;
+}
+
+.modal .ButtonTemplate1 {
+  opacity: 0.8;
+  background-color: #34be52d3;
+  transition: .5s ease-in-out;
+}
+
+.modal .ButtonTemplate1:hover {
+  opacity: 1;
+  background-color: #34be52;
+}
+
+.glass-card {
+  background: rgba(217, 134, 255, 0.15) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border-radius: 20px !important;
+  border: 1px solid rgba(217, 134, 255, 0.3) !important;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(217, 134, 255, 0.5),
+    inset 0 -1px 0 rgba(217, 134, 255, 0.1),
+    inset 0 0 4px 2px rgba(217, 134, 255, 0.2) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.glass-card::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 1px !important;
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(217, 134, 255, 0.8),
+      transparent) !important;
+}
+
+.glass-card::after {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 1px !important;
+  height: 100% !important;
+  background: linear-gradient (180deg,
+      rgba(217, 134, 255, 0.8),
+      transparent,
+      rgba(217, 134, 255, 0.3)) !important;
+}
+
+/*-------------| ToolTips |------------*/
+
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+/*-------------| Fade IN |---------*/
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1s fadeInUp;
+}
+
+@keyframes fadeInUp2 {
+  0% {
+    transform: translateY(-10%);
+    opacity: .5;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp2-animation {
+  animation: .7s fadeInUp2;
+}
